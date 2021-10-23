@@ -1,0 +1,2 @@
+# SoftUni-JavaScript-Advanced-Module-January2021
+This is the third part of software engineering program at SoftUni. Here I will upload some of my solutions to given problems. This module consists of two parts - JavaScript Advanced and JavaScript Applications. Here I master: working with functions, objects, classes and JSON formats; DOM manipulations; OOP; Functional programming; HTTP and making requests; creating simple Single Page Applications; working with REST API and asynchronous programming; using templates, routing and application testing.
