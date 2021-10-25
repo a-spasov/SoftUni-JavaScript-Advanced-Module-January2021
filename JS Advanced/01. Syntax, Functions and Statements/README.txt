@@ -19,3 +19,21 @@ If the argument type is NOT a number, print the following text on the console:
 'We can not calculate the circle area, because we receive a {type of argument}.'
 The input comes as a single argument passed to your function. The output should be printed on the console.
 
+05. Math Operations
+Write a JS function that takes two numbers and a string as an input. The string may be one of the following: '+', 
+'-', '*', '/', '%', '**'.  Print on the console the result of the mathematical operation between both numbers and
+the operator you receive as a string. The input comes as two numbers and a string argument passed to your function.
+The output should be printed on the console.
+
+06. Sum of Numbers N…M
+Write a JS function that takes two numbers n and m as an input and prints the sum of all numbers from n to m.
+The input comes as two string elements that need to be parsed as numbers.
+The output should return the sum.
+
+07. Day of Week
+Write a function that prints a number between 1 and 7 when a day of the week is passed to it as a string and an 
+error message if the string is not recognized. The input comes as a single string argument. The output should be 
+returned as a result.
+
+
+
