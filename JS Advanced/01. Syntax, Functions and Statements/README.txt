@@ -41,6 +41,13 @@ there is no parameter specified, the rectangle should always be of size 5. Look 
 The input comes as a single number argument.
 The output is a series of lines printed on the console, forming a rectangle of variable size.
 
+09. Aggregate Elements
+Write a program that performs different operations on an array of elements. Implement the following operations:
+	- Sum(ai) - calculates the sum all elements from the input array
+	- Sum(1/ai) - calculates the sum of the inverse values (1/ai) of all elements from the array
+	- Concat(ai) - concatenates the string representations of all elements from the array
+
+
 
 
 
