@@ -20,10 +20,19 @@ Write a JS function that processes the elements in an array one by one and produ
 negative element at the front of the result and append each positive (or 0) element at the end of the result.
 The input comes as array of number elements. The output is printed on the console, each element on a new line.
 
-05.	Smallest Two Numbers
+05. Smallest Two Numbers
 Write a function that prints the two smallest elements from an array of numbers.
 The input comes as array of number elements.
 The output is printed on the console on a single line, separated by space.
+
+06. Bigger Half
+You are given an array of numbers. Write a JS function that sorts the array in ascending order and returns a new 
+array, containing only the second half of the input. If there are an odd number of elements in the input, always 
+take the bigger half. For example, if the input array contains 4 elements, the output should be 2, and if the 
+input is 5 – the output is 3.
+The input comes as array of number elements.
+The output is the return value of the function and should be an array of numbers.
+
 
 
 
