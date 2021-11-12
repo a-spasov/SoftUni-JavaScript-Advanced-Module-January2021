@@ -42,6 +42,13 @@ The input comes as three arguments:
 	• Two more strings, representing the start and end of the section, respectively
 The output is the return value of the function and should be an array of strings.
 
+08. Process Odd Positions
+You are given an array of numbers. Write a JS function that return the elements at odd positions from the array, 
+doubled and in reverse order.
+The input comes as array of number elements.
+The output is return on the console on a single line, separated by space.
+
+
 
 
 
