@@ -48,6 +48,12 @@ doubled and in reverse order.
 The input comes as array of number elements.
 The output is return on the console on a single line, separated by space.
 
+09. Biggest Element
+Write a function that finds the biggest element inside a matrix.
+The input comes as array of arrays, containing number elements (2D matrix of numbers).
+The output is the return value of your function. Find the biggest element and return it.
+
+
 
 
 
