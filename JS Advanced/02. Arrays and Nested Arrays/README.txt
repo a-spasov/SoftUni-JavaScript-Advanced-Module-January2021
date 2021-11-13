@@ -60,6 +60,12 @@ The input comes as array of arrays, containing number elements (2D matrix of num
 The output is printed on the console, on a single line separated by space. First print the sum at the main 
 diagonal, then the sum at the secondary diagonal.
 
+11. Equal Neighbors
+Write a function that finds the number of equal neighbor pairs inside a matrix of variable size and type (numbers 
+or strings).
+The input comes as array of arrays, containing string elements (2D matrix of strings).
+The output is return value of your function. Save the number of equal pairs you find and return it.
+
 
 
 
