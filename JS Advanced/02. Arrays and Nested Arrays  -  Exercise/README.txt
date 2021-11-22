@@ -32,4 +32,9 @@ The input comes as an array of numbers.
 The output is the processed array after the filtration, which should be a non-decreasing subsequence. Return the 
 array of numbers.
 
+06. List of Names
+You will receive an array of names. Sort them alphabetically in ascending order and print a numbered list of all 
+the names, each on a new line.
+
+
 
