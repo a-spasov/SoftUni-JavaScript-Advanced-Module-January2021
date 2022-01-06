@@ -33,4 +33,28 @@ You must create and return a new array, by fulfilling all orders from the orders
 a copy of the object’s template and then add to it all functions, listed in the parts array of the order, by 
 taking them from the function library (first parameter to your solution).
 
+05.	Assembly Line
+Create a function that returns a library of decorator functions. They can be used to compose different 
+functionality in a car object that they receive as argument.
+Your solution must return an object, containing three decorator functions:
+  hasClima – compose air conditioning controls into the passed in object. This function takes an object as parameter 
+  and adds to it the following properties:
+	• temp – number with default value 21;
+	• tempSettings – number with default value 21;
+	• adjustTemp – function which takes no arguments. If temp is less than tempSettings, this function adds 1 
+	to temp. If temp is more than tempSettings, it decreases temp by 1. If temp and tempSettings are equal, the
+ 	function does nothing.
+  hasAudio – compose audio player functionality into the passed in object. This function takes an object as 
+  parameter and adds to it the following properties:
+	• currentTrack – object with properties name (string) and artist (string). Default value is null;
+	• nowPlaying – function, which prints on the console the text "Now playing '{currentTrack.name}' 
+	by ${currentTrack.artist}", where name and artist are properties of the currentTrack object.
+	If currentTrack is null, this function does nothing.
+  hasParktronic – compose parking aid functionality into the passed in object. This function takes an object as 
+  parameter and adds to it the following properties:
+	• checkDistance – function, which takes a single argument distance (number) and prints a message on the 
+console, depending on its value: distance < 0.1 – "Beep! Beep! Beep!"; 0.1 <= distance < 0.25 – "Beep! Beep!";
+0.25 <= distance < 0.5 – "Beep!". In any other case, print an empty string.
+
+
 
