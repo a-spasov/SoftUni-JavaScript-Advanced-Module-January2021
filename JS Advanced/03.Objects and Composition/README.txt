@@ -56,5 +56,12 @@ Your solution must return an object, containing three decorator functions:
 console, depending on its value: distance < 0.1 – "Beep! Beep! Beep!"; 0.1 <= distance < 0.25 – "Beep! Beep!";
 0.25 <= distance < 0.5 – "Beep!". In any other case, print an empty string.
 
+06. From JSON to HTML Table
+You’re tasked with creating an HTML table of students and their scores. You will receive a single string 
+representing an array of objects, the table’s headings should be equal to the object’s keys, while each object’s 
+values should be a new entry in the table. Any text values in an object should be escaped, in order to avoid 
+introducing dangerous code into the HTML. 
+
+
 
 
