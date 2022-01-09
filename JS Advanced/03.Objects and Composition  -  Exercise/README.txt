@@ -33,3 +33,9 @@ Coupe: { type: 'coupe', color: <as required> }
 The wheels will be represented by an array of 4 numbers, each number represents the diameter of the wheel in 
 inches. The size can only be an odd number. Round down any requirements you receive to the nearest odd number. 
 
+04. Heroic Inventory
+In the era of heroes, every hero has his own items which make him unique. Create a function which creates a 
+register for the heroes, with their names, level, and items, if they have such. The register should accept data in
+a specified format, and return it presented in a specified format. 
+
+
