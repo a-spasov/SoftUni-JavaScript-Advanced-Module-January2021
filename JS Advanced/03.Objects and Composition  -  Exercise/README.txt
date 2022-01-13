@@ -78,5 +78,11 @@ from the table.
 The output should be an array of objects wrapped in JSON.stringify(). 
 Latitude and longitude must be parsed to numbers, and represented till the second digit after the decimal point!
 
+08. Rectangle
+Write a function that creats and returns a rectangle object. The rectangle needs to have a width (Number), height 
+(Number) and color (String) properties, which are set via arguments during creation, and a calcArea() method, that
+calculates and returns the rectangle’s area.
+
+
 
 
