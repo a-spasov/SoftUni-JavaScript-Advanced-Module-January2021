@@ -83,7 +83,7 @@ Write a function that creats and returns a rectangle object. The rectangle needs
 (Number) and color (String) properties, which are set via arguments during creation, and a calcArea() method, that
 calculates and returns the rectangle’s area.
 
-9.	Sorted List
+9. Sorted List
 Create a function that returns a special object, which keeps a list of numbers, sorted in ascending order. It must
 support the following functionality:
 	• add(elemenent) - adds a new element to the collection
@@ -93,6 +93,16 @@ support the following functionality:
 The correct order of the elements must be kept at all times, regardless of which operation is called. Removing and 
 retrieving elements shouldn’t work if the provided index points outside the length of the collection (either throw 
 an error or do nothing). Note the size of the collection is not a function.
+
+10. Heroes
+Create a function returns an object with 2 methods (mage and fighter). This object should be able to create heroes
+(fighters and mages). Every hero has a state.
+	• Fighters have name, health = 100 and stamina = 100 and every fighter can fight.  When he fights his 
+stamina decreases by 1 and the following message is printed on the console: `${fighter's name} slashes at the foe!`
+	• Mages also have state (name, health = 100 and mana = 100). Every mage can cast spells. When a spell is 
+casted the mage's mana decreases by 1 and the following message is printed on the console:
+`${mage's name} cast ${spell}`
+
 
 
 
