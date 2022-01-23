@@ -11,3 +11,7 @@ same page when the user clicks on a button.
 Write a JS function that reads two numbers from input fields in a web page and puts their sum in another field 
 when the user clicks on a button.
 
+04. Show More
+Write a JS function that expands a hidden section of text when a link is clicked. The link should disappear as the 
+rest of the text shows up.
+
