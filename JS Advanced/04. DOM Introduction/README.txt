@@ -23,4 +23,9 @@ to the target rows.
 Write a JS function that finds the first table in a document and sums the values in the last column. The result is
 then displayed in an element with ID "sum".
 
+07. Extract Parenthesis
+Write a JS function that when executed, extracts all parenthesized text from a target paragraph by given element 
+ID. The result is a string, joined by "; " (semicolon, space).
+
+
 
