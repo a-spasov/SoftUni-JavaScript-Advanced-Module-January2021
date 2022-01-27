@@ -15,3 +15,7 @@ when the user clicks on a button.
 Write a JS function that expands a hidden section of text when a link is clicked. The link should disappear as the 
 rest of the text shows up.
 
+05. Colorize Table
+Write a JS function that changes the color of all even rows when the user clicks a button. Apply the color "Teal" 
+to the target rows.
+
