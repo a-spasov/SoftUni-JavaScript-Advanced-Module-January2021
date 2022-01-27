@@ -19,3 +19,8 @@ rest of the text shows up.
 Write a JS function that changes the color of all even rows when the user clicks a button. Apply the color "Teal" 
 to the target rows.
 
+06. Sum Table
+Write a JS function that finds the first table in a document and sums the values in the last column. The result is
+then displayed in an element with ID "sum".
+
+
