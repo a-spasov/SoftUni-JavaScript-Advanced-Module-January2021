@@ -29,4 +29,12 @@ An HTML page holds a list of towns, a search box and a [Search] button. Implemen
 and underline the items from the list which include the text from the search box. Also print the amount of 
 items the current search matches in the format "<matches> matches found".
 
+05.Tab le - Search Engine
+Write a function that searches in a table by given input.
+When the "Search" button is clicked, go through all cells in the table except for the first row (Student name, 
+Student email and Student course) and check if the given input has a match (check for both full words and 
+single letters).
+If any of the rows contain the submitted string, add a select class to that row. Note that more than one row 
+may contain the given string. 
+Оtherwise, if there is no match, nothing should happen.
 
