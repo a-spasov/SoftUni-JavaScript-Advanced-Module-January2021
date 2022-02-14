@@ -51,5 +51,17 @@ these sentences and append this paragraph to the div with an id="output".
 Otherwise, when you have more than 3 sentences, create enough paragraphs to get all sentences from the 
 textarea. Just remember to restrict the sentences in each paragraph to 3.
 
+7. Hell's Kitchen
+You will be given an array of strings, which represents a list of all the restaurants with their workers.
+When the Send button is clicked:
+	• display the best restaurant of all the added restaurants with its average salary and best salary. 
+	• If there is a restaurant in the input array which is added more than once you should update (add the
+new ones) the workers, average salary and best salary.
+	• The best restaurant is the restaurant with the highest average salary. If two restaurants have the 
+same average salary the best restaurant is the first one added.
+	• display all workers in the best restaurant with their salaries.
+The best restaurant's workers should be sorted by their salaries by descending order
+
+
 
 
