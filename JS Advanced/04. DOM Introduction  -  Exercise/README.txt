@@ -29,7 +29,7 @@ An HTML page holds a list of towns, a search box and a [Search] button. Implemen
 and underline the items from the list which include the text from the search box. Also print the amount of 
 items the current search matches in the format "<matches> matches found".
 
-05.Tab le - Search Engine
+05.Table - Search Engine
 Write a function that searches in a table by given input.
 When the "Search" button is clicked, go through all cells in the table except for the first row (Student name, 
 Student email and Student course) and check if the given input has a match (check for both full words and 
@@ -37,4 +37,19 @@ single letters).
 If any of the rows contain the submitted string, add a select class to that row. Note that more than one row 
 may contain the given string. 
 Оtherwise, if there is no match, nothing should happen.
+
+6. Format the Text
+Create functionality that gets text from textarea, formats the given text - you need to find out how many 
+sentences there are in the text, simply split the whole text by '.' 
+Also, every sentence must have at least 1 character.
+When the [Format] button is clicked, get the text inside the textarea with an id="input" and format it. The 
+formatting is done as follows:
+	• Create a new paragraph element which holds no more than 3 sentences from the given input.
+	• Hint: Use interpolation string to create paragraph element. (`<p> {text} </p>`)
+	• If the given input contains less or 3 sentences, you need to create only 1 paragraph, fill it with 
+these sentences and append this paragraph to the div with an id="output". 
+Otherwise, when you have more than 3 sentences, create enough paragraphs to get all sentences from the 
+textarea. Just remember to restrict the sentences in each paragraph to 3.
+
+
 
