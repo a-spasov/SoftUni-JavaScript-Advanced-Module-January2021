@@ -38,7 +38,7 @@ If any of the rows contain the submitted string, add a select class to that row.
 may contain the given string. 
 Оtherwise, if there is no match, nothing should happen.
 
-6. Format the Text
+06. Format the Text
 Create functionality that gets text from textarea, formats the given text - you need to find out how many 
 sentences there are in the text, simply split the whole text by '.' 
 Also, every sentence must have at least 1 character.
@@ -51,7 +51,7 @@ these sentences and append this paragraph to the div with an id="output".
 Otherwise, when you have more than 3 sentences, create enough paragraphs to get all sentences from the 
 textarea. Just remember to restrict the sentences in each paragraph to 3.
 
-7. Hell's Kitchen
+07. Hell's Kitchen
 You will be given an array of strings, which represents a list of all the restaurants with their workers.
 When the Send button is clicked:
 	• display the best restaurant of all the added restaurants with its average salary and best salary. 
@@ -62,7 +62,7 @@ same average salary the best restaurant is the first one added.
 	• display all workers in the best restaurant with their salaries.
 The best restaurant's workers should be sorted by their salaries by descending order.
 
-8. Generate Report
+08. Generate Report
 You be given a web page, containing a table and output area. 
 When the “Generate Report” button is pressed:
 	• You must generate a JSON report from the data inside the table, by only taking the columns, which are
@@ -76,7 +76,7 @@ content of the cell;
 	• Store the result in an array and output it as a JSON string display it inside the <textarea> with 
 id “output”. See the example for details.
 
-9. Number Convertor
+09. Number Convertor
 Write a function that converts a decimal number to binary and hexadecimal.
 The given number will always be in decimal format. The "From" select menu will only have a Decimal option, but
 the "To" select menu will have two options: Binary and Hexadeicmal. 
