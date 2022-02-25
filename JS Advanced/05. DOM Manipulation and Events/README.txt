@@ -15,4 +15,9 @@ displayed in a <div> with ID "results". The error should be "Not found." .
 Write a program that detects and displays how far along a gradient the user has moved their mouse. The result 
 should be rounded down and displayed as a percentage inside the <div> with ID "result". 
 
+05. Highlight Active
+Write a function that highlights the currently active section of a document. There will be multiple divs with 
+input fields inside them. Set the class of the div that contains the currently focused input field to 
+"focused". When focus is lost (blurred), remove the class from the element.
+
 
