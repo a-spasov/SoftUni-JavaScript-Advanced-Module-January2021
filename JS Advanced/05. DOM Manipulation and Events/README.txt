@@ -20,4 +20,13 @@ Write a function that highlights the currently active section of a document. The
 input fields inside them. Set the class of the div that contains the currently focused input field to 
 "focused". When focus is lost (blurred), remove the class from the element.
 
+06. Dynamic Validation
+Write a function that dynamically validates an email input field when it is changed. If the input is invalid, 
+apply the style "error". Do not validate on every keystroke, as it is annoying for the user, consider only 
+change events.
+A valid email is considered to be in the format: <name>@<domain>.<extension>
+Only lowercase Latin characters are allowed for any of the parts of the email. If the input is valid, clear 
+the style. Submit only the validate() function in judge.
+
+
 
