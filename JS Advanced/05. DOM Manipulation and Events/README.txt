@@ -10,3 +10,9 @@ item with no confirmation. You have to add href="#" to the link element.
 Write a program that takes an e-mail from an input field and deletes the matching row from a table. The 
 textContent in the element with id="result" must be set to "Deleted". If no entry is found, an error should be 
 displayed in a <div> with ID "results". The error should be "Not found." .
+
+04. Mouse Gradient
+Write a program that detects and displays how far along a gradient the user has moved their mouse. The result 
+should be rounded down and displayed as a percentage inside the <div> with ID "result". 
+
+
