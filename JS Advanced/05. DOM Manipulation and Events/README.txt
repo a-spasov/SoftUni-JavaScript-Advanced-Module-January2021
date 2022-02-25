@@ -5,3 +5,8 @@ HTML page.
 02. Add / Delete
 Extend the previous problem to display a [Delete] link after each list item. Clicking it, should delete the 
 item with no confirmation. You have to add href="#" to the link element.
+
+03. Delete from Table
+Write a program that takes an e-mail from an input field and deletes the matching row from a table. The 
+textContent in the element with id="result" must be set to "Deleted". If no entry is found, an error should be 
+displayed in a <div> with ID "results". The error should be "Not found." .
