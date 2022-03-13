@@ -15,4 +15,9 @@ only if the profile is not locked! If the current profile is locked, nothing sho
 information is displayed and we lock the profile again, the [Hide it] button should not be working! Otherwise, 
 when the profile is unlocked and we click on the [Hide it] button, the new fields must hide again.
 
+04. Fill Dropdown
+Your task is to take values from input fields with ids "newItemText" and "newItemValue". Then you should 
+create and append an <option> to the <select> with id "menu".
+
+
 
